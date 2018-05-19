@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
     }
 
     private void watchMileage(){
-        final TextView distanceView = (TextView)findViewById(R.id.distance);
+        final TextView distanceView = findViewById(R.id.distance);
         final Handler handler = new Handler();
         handler.post(new Runnable() {
             @Override
